@@ -1,0 +1,1 @@
+csc src/ServiceInstaller.cs src/ServiceStarter.cs src/CncAcquisitionService.cs src/AcqCnc.cs src/BasicLogger.cs src/fwlib32.cs src/GlobalContext.cs src/CncReader.cs src/KafkaSender.cs -r:release/NLog.dll -r:release/Newtonsoft.Json.dll -r:release/YamlDotNet.dll -r:release/Confluent.Kafka.dll -platform:x86 -out:release/AcqCncSrv.exe

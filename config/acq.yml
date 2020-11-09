@@ -1,0 +1,15 @@
+cnc:
+  - ip: 10.8.8.231
+    port: 8193
+  - ip: 10.8.8.237
+    port: 8193
+  # - ip: 10.8.8.238
+  #   port: 8193
+
+acq:
+  interval: 2000
+
+kafka:
+  ip: "10.8.7.6"
+  port: 9092
+  topic: "cnc_acq"
